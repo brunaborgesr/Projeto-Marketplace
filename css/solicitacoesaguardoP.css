@@ -1,0 +1,486 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-size: 'Roboto', sans-serif;
+
+    text-decoration: none !important;
+
+}
+
+
+
+body {
+
+    height: 100vh;
+
+}
+
+
+
+table {
+
+    border-collapse: separate;
+
+    border-spacing: 0 1em;
+
+}
+
+
+
+.tabela {
+
+    padding: 40px;
+
+}
+
+
+
+.comptabela {
+
+    display: flex;
+
+    flex-direction: flex-row;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+.comptabela button {
+
+    margin: 10px;
+
+    width: 160px;
+
+}
+
+
+
+.comptabela small {
+
+    margin-left: 115px;
+
+}
+
+
+
+.containerBotao {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+}
+
+
+
+.content {
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+.img-responsive {
+
+    width: 50px;
+
+    height: 50px;
+
+    margin-right: 20px;
+
+    border-radius: 50%;
+
+}
+
+
+
+.table-striped a {
+
+    color: #835AFD;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    font-size: 20px;
+
+    line-height: 32px;
+
+    text-decoration: none;
+
+}
+
+
+
+.table-striped td {
+
+    border-radius: 15px !important;
+
+    border: none !important;
+
+    background: #FFF;
+
+}
+
+
+
+.table-striped {
+
+    color: #A8A8B3;
+
+    border-radius: 100% important;
+
+    border: 1px solid #A8A8B3;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    font-size: 20px;
+
+    line-height: 32px;
+
+    text-decoration: none;
+
+    padding-top: 10px;
+
+
+
+}
+
+
+
+.table-striped a:hover {
+
+    color: #835AFD;
+
+    text-decoration: none;
+
+}
+
+
+
+.infoAllUser {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: start;
+
+    flex-direction: row;
+
+    width: 100%;
+
+    margin-left: 10px;
+
+}
+
+
+
+.infoUser {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: start;
+
+    justify-content: center;
+
+    margin-left: 10px;
+
+}
+
+
+
+.left {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 100%;
+
+    max-height: 600px;
+
+    object-fit: cover;
+
+    color: #fff;
+
+}
+
+
+
+.left-text {
+
+    margin-top: 60px;
+
+    text-align: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    color: #A8A8B3;
+
+}
+
+
+
+.left-text h5 {
+
+    font-family: 'Poppins', sans-serif;
+
+    font-style: normal;
+
+    max-width: 600px;
+
+    font-size: 20px;
+
+    line-height: 25px;
+
+    margin-top: -25px;
+
+}
+
+
+
+.left-text p {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    font-size: 20px;
+
+    line-height: 32px;
+
+    color: black;
+
+}
+
+
+
+.btn-aprovar {
+
+    background-color: #6FCF97;
+
+    color: #fff;
+
+    transition: 0.3s;
+
+    max-width: 160px;
+
+}
+
+
+
+.btn-recusar {
+
+    background-color: #E73F5D;
+
+    color: #fff;
+
+    transition: 0.3s;
+
+    max-width: 160px;
+
+}
+
+
+
+
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+
+.container-fluid {
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    height: 100vh !important;
+
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background: #835AFD !important;
+
+}
+
+
+
+.navbar a {
+
+    color: #FFF !important;
+
+    margin: 0 10px !important
+}
+
+
+
+.usuario {
+
+    width: 20% !important;
+
+}
+
+
+
+.paginacao {
+
+    margin: 20px 20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.e-mailUser a,
+h6 {
+    font-size: 16px !important;
+    color: #A8A8B3 !important;
+    font-weight: 300 !important;
+}
+
+/* FIM NAVBAR */
+
+
+
+
+
+@media screen and (max-width: 1680px) {}
+
+
+
+@media screen and (max-width: 1440px) {}
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1360px) {}
+
+
+
+@media screen and (max-width: 1280px) {}
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1280px) {}
+
+
+
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MOBILES */
+
+@media screen and (max-width: 700px) {
+
+    .usuario {
+
+        width: 100% !important;
+
+    }
+
+    .left-text p {
+
+        width: 80%;
+
+        text-align: center;
+
+    }
+
+    .table-striped td {
+
+        width: 100%;
+
+        height: 100%;
+
+    }
+
+
+
+    .comptabela {
+
+        flex-direction: column;
+
+    }
+
+
+
+    .containerBotao {
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+
+
+    .infoAllUser {
+
+        justify-content: center;
+
+        align-items: center;
+
+        flex-direction: column;
+
+    }
+
+    .infoUser {
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+}

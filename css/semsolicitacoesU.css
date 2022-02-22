@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+    text-decoration: none !important;
+}
+
+body {
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row; 
+}
+
+.img-responsive{
+    width: auto;
+    height: 70%;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    color:#fff;
+}
+
+.left-text {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#A8A8B3;
+}
+
+.left-text h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: -25px;
+}
+
+.left-text p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #835AFD;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-encontrar{
+    background-color: #835AFD;
+    color: #fff;
+    transition: 0.3s;
+    margin-top: 10px !important;
+    margin-bottom: -30px !important;
+}
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #835AFD !important;
+}
+
+.navbar a {
+    color: #FFF !important;
+    margin: 0 10px !important
+}
+
+.usuario {
+    width: 20% !important;
+}
+
+/* FIM NAVBAR */
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MOBILES */
+@media screen and (max-width: 600px) {
+    .usuario {
+        width: 100% !important;
+    }
+
+    .mensagem img {
+        width: 60%;
+    }
+}

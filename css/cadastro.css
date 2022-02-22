@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+    text-decoration: none !important;
+}
+
+body {
+    height: 100vh;
+}
+
+img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.formRegister {
+    flex-direction: column;
+    height: 650px;
+    width: 100% !important
+}
+
+
+.registrar {
+    flex-direction: row;
+}
+
+.group {
+    margin: 0 10px;
+}
+
+.formPhoto {
+    display: flex;
+    background: #835AFD;
+    color: #FFF;
+    height: 100%;
+    width: 100% !important;
+}
+
+.form-group {
+    flex-direction: row;
+}
+
+.form-group a {
+    color: #A8A8B3;
+}
+
+.form-group a:hover {
+    color: #835AFD;
+}
+
+.form-group input {
+    width: 258px;
+}
+
+.form-group select {
+    width: 258px;
+}
+
+.form-group button {
+    width: 258px;
+    border-radius: 8px !important;
+    background-color: #835AFD;
+    color: white;
+    border: none;
+}
+
+.form-group button:hover {
+    cursor: pointer;
+}
+
+.form-group button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #A8A8B3;
+}
+
+/* FIM DIV MENSAGEM */
+
+/* RESPONSIVIDADE PARA TELAS FULL HD */
+@media screen and (min-width: 1920px) {
+    .formRegister {
+        height: 100vh;
+    }
+
+    .form-group input {
+        width: 450px;
+        height: 50px !important;
+    }
+
+    .form-group select {
+        width: 450px;
+        height: 50px !important;
+    }
+
+    .form-group button {
+        width: 450px;
+        height: 50px !important;
+        border-radius: 8px !important;
+        background-color: #835AFD;
+        color: white;
+        border: none;
+    }
+}
+
+
+@media screen and (max-width: 1680px) {
+    .formRegister {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .formRegister {
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+    .formRegister {
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1360px) {
+    .formRegister {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .formRegister {
+        height: 100vh;
+        width: 60% !important;
+    }
+
+    .formPhoto {
+        width: 40% !important;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1280px) {
+    .formRegister {
+        height: 100vh;
+        width: 70% !important;
+    }
+
+    .formPhoto {
+        width: 30% !important;
+    }
+}
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MOBILES */
+@media screen and (max-width: 700px) {
+    .formRegister {
+        width: auto;
+        height: auto;
+    }
+
+    .form-group {
+        flex-direction: column;
+    }
+
+    .registrar {
+        flex-direction: column !important;
+    }
+
+    .formPhoto {
+        width: 0;
+        height: 0;
+    }
+
+    .formPhoto img {
+        display: none !important;
+    }
+
+}

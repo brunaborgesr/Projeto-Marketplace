@@ -1,0 +1,395 @@
+* {
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-size: 'Roboto', sans-serif;
+
+    text-decoration: none !important;
+
+}
+
+
+
+html,
+
+body {
+
+    min-height: 100vh;
+
+}
+
+
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+
+.container-fluid {
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    height: 100vh !important;
+
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background: #835AFD !important;
+
+}
+
+
+
+.navbar a {
+
+    color: #FFF !important;
+
+    margin: 0 10px !important
+}
+
+
+
+/* FIM NAVBAR */
+
+
+
+/* INICIO BUSCA */
+
+.busca {
+
+    background-color: #FFF;
+
+    height: 35vh !important;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+
+
+.busca h2 {
+
+    color: #835AFD;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.busca h6 {
+
+    color: #A8A8B3;
+
+}
+
+
+
+.input-group {
+
+    margin: 20px 0;
+
+    width: 35% !important;
+
+}
+
+
+
+.input-group input {
+
+    padding: 10px !important;
+
+    border-radius: 8px;
+
+    border-bottom-right-radius: 0px !important;
+
+    border-top-right-radius: 0px !important;
+
+    font-size: 14px;
+
+}
+
+
+
+.btn-procura {
+
+    border-radius: 8px !important;
+
+    border-bottom-left-radius: 0px !important;
+
+    border-top-left-radius: 0px !important;
+
+    height: 43px !important;
+
+}
+
+
+
+/* INICIO CARD */
+
+
+
+.row {
+
+    margin: 0 !important;
+
+    min-height: 100vh;
+
+    min-width: 100%;
+
+    height: auto !important;
+
+    height: 100%;
+
+}
+
+
+
+.card-group {
+
+    margin: 15px 0;
+
+}
+
+
+
+.card {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 0 60px;
+
+    min-width: 350px !important;
+
+    max-width: 350px !important;
+
+    width: 350px !important;
+
+    min-height: 300px !important;
+
+    height: auto !important;
+
+    max-height: 530px !important;
+
+}
+
+
+
+.card-img-top {
+
+    width: 120px !important;
+
+    height: 120px !important;
+
+    margin-top: 25px;
+
+    border-radius: 100% !important;
+
+}
+
+
+
+.card-title {
+
+    color: #737380;
+
+}
+
+
+
+.card-subtitle {
+
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 10px !important;
+
+    font-size: 12px !important;
+
+}
+
+
+
+.card-text {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 12px !important;
+
+    margin-top: 10px;
+
+    text-align: center;
+
+    color: gray;
+
+}
+
+
+
+.avaliacoes {
+
+    color: #A8A8B3;
+
+}
+
+
+
+.btn {
+
+    width: 100% !important;
+
+    background: #E73F5D;
+
+    color: #FFF;
+
+}
+
+
+
+.btn:hover {
+
+    color: #FFF;
+
+}
+
+
+
+.profissionais {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #EDF2F5;
+
+    min-height: 100vh;
+
+    height: auto !important;
+
+    height: 100%;
+
+}
+
+
+
+.stars {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.stars i {
+
+    font-size: 24px;
+
+    color: #4E12FF
+}
+
+
+
+.paginacao {
+
+    padding-top: 20px;
+
+}
+
+
+
+@media screen and (max-width: 1680px) {}
+
+
+
+@media screen and (max-width: 1440px) {}
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1360px) {}
+
+
+
+@media screen and (max-width: 1280px) {}
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 1280px) {
+
+    .card {
+
+        min-width: 250px !important;
+
+    }
+
+}
+
+
+
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MOBILES */
+
+@media screen and (max-width: 700px) {
+
+
+
+    .busca h2 {
+
+        font-size: 24px !important;
+
+    }
+
+
+
+    .busca h6 {
+
+        font-size: 14px !important;
+
+    }
+
+
+
+    .card-group {
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+    }
+
+
+
+    .input-group {
+
+        margin: 20px 0;
+
+        width: 80% !important;
+
+    }
+
+}

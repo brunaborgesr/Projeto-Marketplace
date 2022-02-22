@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+    text-decoration: none !important;
+}
+
+body {
+    height: 100vh;
+}
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #835AFD !important;
+}
+
+.navbar a {
+    color: #FFF !important;
+    margin: 0 10px !important
+}
+
+.navbar a:hover {
+    color: #FFF !important;
+}
+
+
+.paginacao {
+    margin: 20px 20px;
+}
+
+/* FIM NAVBAR */
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    background: #FFF;
+    height: 100vh;
+    width: 30% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid #737380;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 !important;
+}
+
+img {
+    border-radius: 100% !important;
+    height: 150px !important;
+    width: 150px !important
+}
+
+.form-group p {
+    margin: 15px 0;
+    color: #737380;
+}
+
+.form-group button {
+    height: 40px !important;
+    width: 200px !important;
+    font-size: 12px;
+    border: none;
+}
+
+.form-group button:hover,
+button:active,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+small {
+    color: gray;
+}
+
+small:hover {
+    cursor: pointer;
+}
+
+.form-group a {
+    color: #A8A8B3;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #A8A8B3 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-group button,
+a {
+    margin: 10px 0;
+}
+
+.direita {
+    height: 100vh;
+    width: 70% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20% !important;
+    border-bottom: 1px solid #737380;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80% !important;
+    background: #FFF;
+}
+
+div .conteudo .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 !important;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+
+.input-group input {
+    width: 250px !important;
+    border-radius: 8px !important;
+}
+
+.btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.botoes {
+    font-size: 14px;
+    width: 550px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.removeFoto {
+    background: none !important;
+    border: none;
+    color: gray;
+}
+
+.removeFoto button:hover,
+button:active,
+button:focus {
+    color: gray;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.salvar {
+    background: none !important;
+    border: none;
+}
+
+.salvar .salvar:active,
+.salvar:focus,
+.salvar:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: gray !important;
+}
+
+.roxo {
+    background: #835AFD !important;
+}
+
+@media screen and (max-width: 1680px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 900px) and (max-width: 1440px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1360px) {}
+
+@media screen and (max-width: 1280px) {}
+
+@media only screen and (min-width: 720px) and (max-width: 1280px) {}
+
+
+/* RESPONSIVIDADE PARA DISPOSITIVOS MOBILES */
+@media screen and (max-width: 700px) {
+    .container-fluid {
+        min-height: 800px !important;
+    }
+
+    .form-group img {
+        margin: 20px 0;
+        border-radius: 100% !important;
+        height: 149px !important;
+    }
+
+    .principal {
+        flex-direction: column;
+    }
+
+    .esquerda {
+        width: 100% !important;
+        height: 100vh !important;
+        border-right: none;
+        border-bottom: 1px solid #737380;
+        margin-bottom: 100px;
+    }
+
+    .direita {
+        width: 100% !important;
+        height: 100vh !important;
+    }
+
+    div .conteudo .form-group {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .title {
+        display: none !important;
+    }
+
+    .input-group input {
+        width: 100% !important;
+    }
+
+
+    .botoes {
+        width: 100% !important;
+        flex-direction: column;
+    }
+}

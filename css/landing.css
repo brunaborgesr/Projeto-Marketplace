@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Roboto', sans-serif;
+    text-decoration: none !important;
+}
+
+body {
+    height: 100vh;
+}
+
+strong {
+    color: #835AFD !important;
+}
+
+.hero {
+    display: table;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)100%), url('../images/mecanico.jpg');
+    background-size: cover;
+    padding: 150px 0;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* CONTAINER PRINCIPAL QUE ENVOLVE TUDO */
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh !important;
+    background-color: #F5F6F7 !important;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #835AFD !important;
+}
+
+.navbar a {
+    color: #FFF !important;
+    margin: 0 10px !important
+}
+
+
+.btn-roxo {
+    background: #835AFD !important;
+    border-radius: 8px !important;
+    border: 1px solid white !important;
+    width: 100px !important;
+}
+
+.btn-link {
+    color: #835AFD !important;
+    font-weight: 600 !important;
+}
+
+.btnHero {
+    background-color: #835AFD;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    padding: 15px 45px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 62px !important;
+}
+
+a:hover {
+    color: #FFF !important;
+}
+
+.heroBrand {
+    display: inline-block;
+    color: #fff;
+    font-size: 61px;
+}
+
+.tagline {
+    font-size: 26px;
+    margin: 45px 0 75px 0;
+    color: #fff;
+}
+
+.card {
+    margin: 10px 0 !important;
+
+}
+
+.card-header {
+    background: #FFF !important;
+    border-bottom: 2px solid #835AFD !important;
+}
+
+
+.btnEmail {
+    margin: 20px 0;
+    padding: 8px 20px !important;
+    border-radius: 8px !important;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+
+footer.container-fluid {
+    background-color: #26272B !important;
+    height: 300px !important;
+}
+
+.containerFooter {
+    padding: 0 30px;
+    background-color: #26272B !important;
+}
+
+.containerFooter p {
+    color: gray !important;
+    text-align: justify;
+}
+
+.linksFooter a {
+    color: gray !important;
+}
+
+.linksFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.parte1Row {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+h4 {
+    text-align: start;
+}
+
+@media screen and (max-width: 700px) {
+    footer.container-fluid {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .containerFooter {
+        padding: 20px 30px;
+    }
+
+    h4 {
+        text-align: start;
+        font-size: 18px !important;
+    }
+}
